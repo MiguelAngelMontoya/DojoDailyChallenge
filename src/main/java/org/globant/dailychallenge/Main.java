@@ -9,6 +9,6 @@ public class Main {
         escenarios.probarEscenario();
 
         PascalTriangle pascalTriangle = new PascalTriangle();
-        pascalTriangle.generateTriangle(5);
+        pascalTriangle.generateTriangle(10);
     }
 }
