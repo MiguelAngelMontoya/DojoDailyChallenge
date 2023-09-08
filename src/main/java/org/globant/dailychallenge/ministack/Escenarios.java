@@ -1,6 +1,8 @@
 package org.globant.dailychallenge.ministack;
 
 public class Escenarios {
+    private MyStack stack;
+
     public MyStack probarEscenario(){
         MyStack stack = new MyStack();
         stack.push(30);
