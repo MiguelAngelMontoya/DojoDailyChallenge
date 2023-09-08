@@ -3,7 +3,7 @@ package org.globant.dailychallenge.ministack;
 import java.util.ArrayList;
 
 public class MyStack {
-    private ArrayList<Integer> stack;
+    private final ArrayList<Integer> stack;
 
     public MyStack(){
         this.stack = new ArrayList<>();
